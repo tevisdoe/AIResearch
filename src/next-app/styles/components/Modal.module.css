@@ -1,0 +1,39 @@
+.backdrop {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.container {
+  background-color: white;
+  border-radius: 4vmin;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  width: 80vw;
+  height: 90vh;
+  overflow-y: auto;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.close:hover {
+  cursor: pointer;
+}
+
+.content {
+  padding-top: 4vmin;
+}

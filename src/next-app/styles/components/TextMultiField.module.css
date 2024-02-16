@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.text-input-container {
+  margin-top: 1vh;
+}
+
+.link-container {
+  margin-top: 1vh;
+}

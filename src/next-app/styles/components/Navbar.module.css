@@ -1,0 +1,139 @@
+.navbar {
+  /* background-color: #f3f6ff; */
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  /* overflow: hidden; */
+  align-items: center;
+  position: relative;
+  /* padding: 16px; */
+}
+
+.menu-bars {
+  font-size: 36px;
+  background: none;
+  /* line-height: 6vmin; */
+  height: 100%;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-bars-active {
+  font-size: 36px;
+  /* line-height: 6vmin; */
+  height: 100%;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-bars:hover {
+  cursor: pointer;
+}
+
+.menu-bars:active {
+  opacity: 0.5;
+}
+
+.menu-bars-active:hover {
+  cursor: pointer;
+}
+
+.menu-bars-active:active {
+  opacity: 0.5;
+}
+
+.btn-contianer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  font-size: 36px;
+  background: none;
+  /* padding-top: 1.5vh; */
+  padding-right: 4vh;
+  height: 10vh;
+  position: relative;
+  gap: 21px;
+}
+
+.profile-btn-container {
+  position: relative;
+}
+
+.profile-btn {
+  /* margin-right: 4vh; */
+}
+
+.profile-btn:hover {
+  cursor: pointer;
+}
+
+.profile-btn:active {
+  opacity: 0.5;
+}
+
+.nav-menu {
+  background-color: #f3f6ff;
+  width: fit-content;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-menu-active {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 2.5%;
+  background-color: #f3f6ff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0;
+  transition: transform 0.3s ease-in-out;
+  width: 95%;
+}
+
+.nav-text-item {
+  margin-left: 1.5vh;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1vh 0vh 1vh 3vh;
+  list-style: none;
+  height: 9vh;
+  width: 100%;
+}
+
+.nav-text:hover {
+  background-color: #d9f8ef;
+  cursor: pointer;
+}
+
+.nav-text:active {
+  background-color: var(--primary-color);
+}
+
+.nav-menu-items {
+  width: 100%;
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}

@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  background-color: white;
+  color: black;
+}
+
+.container:enabled:active {
+  opacity: 0.5;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.icon {
+  height: 36px;
+  width: 36px;
+}
